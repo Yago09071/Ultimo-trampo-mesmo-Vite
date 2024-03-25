@@ -1,0 +1,22 @@
+:root {
+  --text-p: #ffff;
+  --text-title: rgb(62, 220,210);
+  --bg: #1d1d1d;
+  --bg-light: #383838;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text-p);
+}
+
+h1,h2,h3,h4,h5{
+  color: var(--text-title);
+}
